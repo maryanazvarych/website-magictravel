@@ -1,0 +1,83 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+body{
+	font-size: 16px;
+	background-color:#f2f2f2;
+}
+
+div.gallery {
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, .5);
+	width: 85%;
+    margin: 4% auto;
+    padding: 9px;
+	display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.img_th {
+    width: 100%;
+    height: auto;
+}
+
+#bigImage {
+    width: 85%;
+    padding: 15px;
+	
+}
+#bigImage img {
+    width: 100%;
+    height: auto;
+}
+
+table{
+	width: 100%;
+    margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+tr, td{
+	margin: 10px;
+	padding: 10px;
+}
+
+#op-link {
+	width: 40%;
+	height: 2em;
+}
+
+fieldset {
+	width: 98%;
+}
+label, input, textarea, select {
+	display: inline-block;
+	width: 95%;
+	margin: 2px;
+}
+fieldset#login {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+table, td, th{
+	
+	margin:2px;
+	padding:2px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.viewAll{
+	border:2px solid black;
+
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding :0;
+}
+ul li{
+	margin: 0 0 10px 0;
+	padding: 0;
+	display: inline;
+}
+}

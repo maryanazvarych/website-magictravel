@@ -1,0 +1,102 @@
+@media screen and (min-width: 769px){
+body{
+	font-size: 16px;
+	background-color: #f2f2f2;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div.gallery {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+	display: inline-block;
+}
+.img_th {
+    width: 180px;
+    height: auto;
+}
+.notes {
+	font-size: 1.0em;
+	padding: 10px;
+}
+#bigImage {
+    width: 400px;
+    padding: 15px;
+	
+}
+#bigImage img {
+    width: 100%;
+    height: auto;
+	
+}
+table{
+	width: 50%;
+    margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+tr, td{
+	margin: 10px;
+	padding: 10px;
+}
+#op-link {
+	width: 40%;
+	height: 2em;
+}
+fieldset {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+input { 
+    width: 300px;
+    margin-left: 20px;
+}
+textarea {
+	width: 95%;
+    margin-left: 5px;
+}
+input[type="submit"], input[type="reset"] {
+    width: 180px;
+	height: 40px;
+    margin-left: 40px;
+	color: Brown;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+input[type="file"] {
+    width: 300px;
+	height: 30px;
+    margin-left: 10px;
+	color: Brown;
+	font-weight: bold;
+	font-size: 1.1em;
+	border-radius: 3px;  
+}
+table, td, th{
+	
+	margin:2px;
+	padding:2px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.viewAll{
+	border:2px solid black;
+
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding :0;
+}
+ul li{
+	margin: 0 0 10px 0;
+	padding: 0;
+	display: inline;
+}
+}
+

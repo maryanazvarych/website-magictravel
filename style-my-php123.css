@@ -1,0 +1,406 @@
+body {
+	text-align:center;
+	font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.change{
+	height: 900px;
+	background-color: #877b70;
+}
+
+.someText{
+	height: 600px;
+	background-color: #F4ECDC;
+	padding-top: 155px;
+}
+
+.whyWe{
+	height: 1100px;
+	background-color: #d9ccb6;
+}
+
+.tablicaWhy{
+    position: relative;
+}
+
+.tablicaWhyWe{
+	position: absolute;
+    top: 170%;
+    left: 50%;
+	margin-left: -300px;
+}
+
+.whyWe ul {
+	width: 600px;
+	height: 800px;
+    border: 1px solid #ece3d2;
+	background-color: #f1f0ee;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.titleLi{
+	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+}
+
+.whyWe li{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+	list-style: none;
+    position: relative;
+    padding-left: 50px;
+	padding-right: 20px;
+	display: inline-block;
+	text-align: left;
+}
+
+.whyWe li::before{
+	content: "\2713"; 
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+.wpisanieButton{
+	background-color: #4C3423;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 0 10px 0;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.ourPlan{
+	height: 700px;
+	background-color: #F4ECDC;
+}
+
+.container2{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.veiw-box{
+    width: 1130px;
+    height: 600px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+	padding-top: 50px;
+}
+
+#testimonials{
+    display: flex;
+    transition: 0.5s;
+}
+
+.user{
+	height: 310px;
+    width: 350px;
+    text-align: center;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    background: #4C3423;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px -5px #00000061;
+    position: relative;
+}
+
+.space{
+    margin: 0 40px;
+}
+
+.testimonial-image {
+	margin-right: 20px;
+	display: inline-block;
+	max-width: 250px;
+	display: flex;
+	justify-content: center;
+}
+
+.user img{
+	display: flex;
+	justify-content: center;
+	max-width: 35%;
+	height: auto;
+	border-radius: 50%;
+	margin-left: 30px;
+}
+
+.user p{
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 23px;
+    margin: 30px 10px 20px 10px;
+}
+
+.user h3{
+    font-size: 27px;
+    color: #ffffff;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.controls{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.controls span{
+    width: 15px;
+    height: 15px;
+    background: #4C3423;
+    border-radius: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.actives{
+    width: 80px !important;
+}
+
+
+#box {
+    width: 100%;
+	height: auto;
+	position: absolute; top: 51px; left: 0px;
+}
+
+#mainTitle {
+	font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #4C3423, 0 0 20px #3B3216;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+
+.commentTitle {
+	margin-bottom: 1.1em;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+    color: #4C3423;
+	clear: left;
+	padding-top: 50px;
+}
+
+.notes {
+	width: 1000px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 21px;
+	color: #4C3423;
+	line-height: 1.5;
+	position: absolute;
+    top: 170%;
+    left: 50%;
+	margin-left: -500px;
+}
+
+div.gallery {
+	background: #f2f2f2;
+}
+
+div.gallery img:hover{
+	opacity: 0.7;
+}
+
+.img_th {
+    border: 1px solid #4C3423;
+    border-style: inset;
+}
+
+#bigImage {
+   margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, .5);
+    background: #f2f2f2;
+	max-width: 400px
+}
+
+#bigImage img {
+    border: 5px solid #4C3423;
+    border-style: inset;
+}
+
+#bigImage img:hover{
+	opacity: 0.8;
+}
+
+#imgTitle {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #4C3423, 0 0 20px #3B3216;
+}
+
+#op-link {
+	background: #4C3423;
+	text-align: center;
+    margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
+	padding: 5px;
+}
+
+#op-link a {
+	display: block;
+	font-family: 'Poppins', sans-serif;
+
+	font-size: 0.9em;
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#op-link:hover {
+	opacity: 0.6;
+}
+
+#op-link a:hover {
+	color: #4C3423;
+}
+
+h1 { font-size: 1.6em; }
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.1em; }
+
+label, input, textarea, select {
+	font-family: 'Poppins', sans-serif;
+
+	font-size: 1em;
+	border-radius: 4px;
+}
+
+input, textarea, select {
+	color: rgb(9, 2, 80);
+	padding: 5px;
+}
+
+label {
+    margin-left: 5px;
+	margin-right: 2px;
+}
+
+div.formul {
+	line-height: 2;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+table{
+	font-style:normal;
+	font-size: 1.1em;
+}
+
+fieldset#login {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.form-btn {
+	margin: 5px;
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, td, th{
+	margin:2px;
+	padding:2px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.viewAll{
+	border:2px solid black;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding :0;
+}
+
+ul li{
+	margin: 0 0 10px 0;
+	padding: 0;
+	display: inline;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid rgb(108, 107, 107);
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	width: 350px;
+	border-radius: 2px;
+	margin: auto;
+}
+
+.input {
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.btn-formm {
+	background-color: #3B3216;
+	color: white;
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	border-radius: 5px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.footer{
+	padding:33px 0;
+	background:#6d5f52;
+}
+
+.credits{
+	color:#ffffff;
+	font-size:14px;
+	margin:0 1050px 0 0;
+}

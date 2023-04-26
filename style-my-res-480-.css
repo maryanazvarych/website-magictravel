@@ -1,0 +1,85 @@
+@media screen and (min-width: 321px) and (max-width: 480px){
+body{
+	font-size: 14px;
+	background-color:#f2f2f2;
+}
+
+div.gallery {
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
+	width: 90%;
+    margin: 3% auto;
+    padding: 7px;
+	display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+}
+.img_th {
+    width: 100%;
+    height: auto;
+}
+.notes {
+	font-size: 1.0em;
+	padding: 5px;
+}
+#bigImage {
+    width: 90%;
+    padding: 10px;
+	
+}
+#bigImage img {
+    width: 100%;
+    height: auto;
+}
+table{
+	width: 100%;
+    margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+tr, td{
+	margin: 10px;
+	padding: 10px;
+}
+#op-link {
+	width: 60%;
+	height: 2em;
+}
+
+fieldset {
+	width: 98%;
+}
+label, input, textarea, select {
+	display: inline-block;
+	width: 95%;
+	margin: 2px;
+}
+fieldset#login {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+table, td, th{
+	
+	margin:2px;
+	padding:2px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.viewAll{
+	border:2px solid black;
+
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding :0;
+}
+ul li{
+	margin: 0 0 10px 0;
+	padding: 0;
+	display: inline;
+}
+
+
+}
